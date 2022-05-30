@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// Package opencensus implements a github.com/virtual-kubelet/virtual-kubelet/trace.Tracer
+// Package opencensus implements a github.com/roy2220/virtual-kubelet/trace.Tracer
 // using opencensus as a backend.
 //
 // Use this by setting `trace.T = Adapter{}`
@@ -23,9 +23,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/virtual-kubelet/virtual-kubelet/errdefs"
-	"github.com/virtual-kubelet/virtual-kubelet/log"
-	"github.com/virtual-kubelet/virtual-kubelet/trace"
+	"github.com/roy2220/virtual-kubelet/errdefs"
+	"github.com/roy2220/virtual-kubelet/log"
+	"github.com/roy2220/virtual-kubelet/trace"
 	octrace "go.opencensus.io/trace"
 )
 

@@ -15,7 +15,7 @@
 package root
 
 import (
-	"github.com/virtual-kubelet/virtual-kubelet/errdefs"
+	"github.com/roy2220/virtual-kubelet/errdefs"
 	"go.opencensus.io/trace"
 )
 
